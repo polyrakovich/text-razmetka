@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><audio> and <video></title>
+</head>
+<body>
+<h1>Video and audio</h1>
+<figure>
+<video
+   controls
+   width="464px"
+   height="848px"
+   poster="photo-sobachka.jpg">
+   <source src="sobachka.mp4" type="video/mp4"/>
+   <source src="sobachka.webm" type="video/webm"/>
+    <track kind="subtitles" src="subss.vtt" srclang="en/US"/>
+    <p>
+        Your browser doesn't support HTML5 video. Here is a
+        <a href="sobachka.mp4">link to the video</a> instead
+    </p>
+</video>
+    <figcaption>Video with sobachka</figcaption>
+</figure>
+<figure>
+<audio
+    controls>
+    <source src="zvuk-dozhdya.mp3" type="audio/mp3"/>
+    <source src="zvuk-dozhdya.ogg" type="audio/ogg"/>
+    <p>Your browser doesn't support HTML5 audio/ Here is a
+        <a href="zvuk-dozhdya.mp3">link to the audio</a> instead. </p>
+</audio>
+    <figcaption>Audio with dozhd' sounds</figcaption>
+</figure>
+</body>
+</html>
